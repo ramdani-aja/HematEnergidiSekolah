@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>ENERGY SAVE - Hemat Energi di Sekolah</title>
+
+    <!-- Google Fonts: Inter dan Playfair Display -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet Utama (Fase 1 - Google Stitch Aesthetic) -->
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+    />
+  </head>
+
+  <body>
+    <!-- Aksesibilitas: Tautan Langsung ke Konten Utama -->
+    <a
+      class="skip-link"
+      href="#main-content"
+      >Ke halaman utama</a
+    >
+
+    <!-- ============================================================
+       HEADER & NAVBAR
+       ============================================================ -->
+    <header>
+      <nav
+        class="he-navbar sticky-top"
+        id="mainNavbar"
+      >
+        <div class="container">
+          <a
+            class="he-brand"
+            href="index.html"
+            aria-label="Beranda ENERGY SAVE"
+          >
+            <img
+              class="he-brand-logo"
+              src="assets/images/logo-hemat-energi.png"
+              alt=""
+              aria-hidden="true"
+            />
+            <span>ENERGY <strong>SAVE</strong></span>
+          </a>
+
+          <button
+            class="he-toggler"
+            type="button"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Buka menu navigasi"
+          >
+            <span class="he-toggler-icon"></span>
+            <span class="he-toggler-icon"></span>
+            <span class="he-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse"
+            id="navbarMenu"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="he-nav-link active"
+                  href="index.html"
+                  aria-current="page"
+                >
+                  Beranda
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="he-nav-link"
+                  href="data.html"
+                >
+                  Data &amp; Fakta
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="he-nav-link"
+                  href="aksi.html"
+                >
+                  Aksi &amp; Rekomendasi
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="he-nav-link"
+                  href="tentang.html"
+                >
+                  Tentang
+                </a>
+              </li>
+              <li class="nav-item nav-cta-item">
+                <a
+                  class="he-nav-cta"
+                  href="aksi.html"
+                  >Mulai Aksi <span aria-hidden="true">↗</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ============================================================
+      KONTEN UTAMA
+      ============================================================ -->
+    <main id="main-content">
+      <!-- HERO SECTION -->
+      <section
+        class="he-hero home-hero"
+        id="hero"
+      >
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <!-- Kolom Teks Hero -->
+            <div class="col-lg-6 home-hero-copy">
+              <div class="he-badge home-hero-badge mb-4">
+                <span
+                  class="hero-live-dot"
+                  aria-hidden="true"
+                ></span>
+                KAMPANYE ENERGI SEKOLAH
+              </div>
+
+              <h1 class="he-hero-title home-headline">
+                Save Energy.<br />
+                <em>Build a Better Future.</em>
+              </h1>
+
+              <p class="he-hero-desc">
+                Kebiasaan hemat energi di sekolah menjaga lingkungan dan membuat
+                setiap ruang belajar lebih bijak menggunakan listrik.
+              </p>
+
+              <div
+                class="he-hero-btns d-flex flex-wrap gap-3 home-hero-actions"
+              >
+                <a
+                  href="aksi.html"
+                  class="btn he-btn-primary"
+                >
+                  Mulai Hemat Energi <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  href="data.html"
+                  class="btn he-btn-outline"
+                >
+                  Lihat Data
+                </a>
+              </div>
+
+              <div
+                class="hero-values"
+                aria-label="Statistik survei hemat energi"
+              >
+                <div><span>636</span><strong>Siswa berpartisipasi</strong></div>
+                <div><span>99,4%</span><strong>Tingkat partisipasi</strong></div>
+                <div><span>3,36</span><strong>Rata-rata perilaku hemat energi</strong></div>
+              </div>
+            </div>
+
+            <!-- Kolom Visual Hero -->
+            <div class="col-lg-6">
+              <div class="hero-visual">
+                <div
+                  class="hero-visual-glow"
+                  aria-hidden="true"
+                ></div>
+                <img
+                  class="hero-school-illustration"
+                  src="assets/images/school-energy-illustration.svg"
+                  alt="Ilustrasi sekolah hijau dengan panel surya, pepohonan, dan lingkungan yang hemat energi"
+                  width="760"
+                  height="640"
+                  fetchpriority="high"
+                />
+                <div class="hero-stat-card">
+                  <span
+                    class="hero-stat-icon"
+                    aria-hidden="true"
+                    >↗</span
+                  >
+                  <span
+                    ><strong>636 responden</strong
+                    ><small>jawaban survei valid</small></span
+                  >
+                </div>
+                <div class="hero-note-card">
+                  <span
+                    class="hero-note-leaf"
+                    aria-hidden="true"
+                    >✳</span
+                  >
+                  <span
+                    ><strong>Belajar lebih hijau</strong
+                    ><small>Mulai dari ruang kelas kita</small></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+        LATAR BELAKANG: MENGAPA HARUS HEMAT
+        ============================================================ -->
+      <section
+        class="he-section he-section-light"
+        id="kenapa"
+      >
+        <div class="container">
+          <div class="he-section-header text-center mb-5">
+            <span class="he-section-label"> LATAR BELAKANG KAMPANYE </span>
+
+            <h2 class="he-section-title mt-2">
+              Mengapa Kita Perlu Menghemat Energi?
+            </h2>
+
+            <p class="he-section-desc mx-auto">
+              Sebagian besar listrik yang kita gunakan masih berasal dari
+              pembakaran bahan bakar fosil yang terbatas. Di sekolah, membiarkan
+              lampu atau pendingin ruangan menyala di ruang kosong menyumbang
+              pemborosan yang nyata. Membiasakan efisiensi sejak dini adalah
+              kunci menjaga kelestarian bumi.
+            </p>
+          </div>
+
+          <div class="row gy-4 justify-content-center">
+            <!-- Kartu 01 -->
+            <div class="col-md-4">
+              <div class="he-card he-simple-card h-100">
+                <div
+                  class="he-card-icon"
+                  aria-hidden="true"
+                >
+                  01
+                </div>
+                <h3 class="he-card-title">Matikan Alat Listrik</h3>
+                <p class="he-card-desc">
+                  Matikan lampu, AC, kipas angin, dan proyektor saat kelas atau
+                  ruangan tidak sedang digunakan.
+                </p>
+              </div>
+            </div>
+
+            <!-- Kartu 02 -->
+            <div class="col-md-4">
+              <div class="he-card he-simple-card h-100">
+                <div
+                  class="he-card-icon"
+                  aria-hidden="true"
+                >
+                  02
+                </div>
+                <h3 class="he-card-title">Manfaatkan Cahaya Alami</h3>
+                <p class="he-card-desc">
+                  Buka tirai jendela di siang hari agar sinar matahari dapat
+                  menerangi ruang belajar tanpa menyalakan lampu.
+                </p>
+              </div>
+            </div>
+
+            <!-- Kartu 03 -->
+            <div class="col-md-4">
+              <div class="he-card he-simple-card h-100">
+                <div
+                  class="he-card-icon"
+                  aria-hidden="true"
+                >
+                  03
+                </div>
+                <h3 class="he-card-title">Cabut Steker dan Colokan</h3>
+                <p class="he-card-desc">
+                  Lepaskan kabel charger laptop dan alat elektronik setelah
+                  baterai penuh agar tidak terus menyerap daya standby.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="he-section he-section-light" id="masalah">
+        <div class="container">
+          <div class="he-section-header text-center mb-5">
+            <span class="he-section-label">TANTANGAN DI LINGKUNGAN SEKOLAH</span>
+            <h2 class="he-section-title mt-2">Permasalahan Pemborosan Energi</h2>
+            <p class="he-section-desc mx-auto">
+              Energi sering terbuang lewat hal sederhana yang berulang saat kegiatan belajar berlangsung.
+            </p>
+          </div>
+
+          <div class="row gy-4 justify-content-center">
+            <div class="col-md-4">
+              <article class="he-card he-simple-card h-100">
+                <div class="he-card-icon" aria-hidden="true">01</div>
+                <h3 class="he-card-title">Lampu Menyala di Ruang Kosong</h3>
+                <p class="he-card-desc">Penerangan yang dibiarkan menyala saat kelas tidak digunakan menambah konsumsi listrik tanpa mendukung kegiatan belajar.</p>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="he-card he-simple-card h-100">
+                <div class="he-card-icon" aria-hidden="true">02</div>
+                <h3 class="he-card-title">Pendingin Terus Bekerja</h3>
+                <p class="he-card-desc">Kipas atau pendingin ruangan yang tetap aktif ketika ruangan kosong menggunakan energi yang sebenarnya dapat dihemat.</p>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="he-card he-simple-card h-100">
+                <div class="he-card-icon" aria-hidden="true">03</div>
+                <h3 class="he-card-title">Perangkat Tetap Terhubung</h3>
+                <p class="he-card-desc">Charger dan perangkat elektronik yang dibiarkan tersambung setelah digunakan membuat kebiasaan hemat energi sulit terbentuk.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         DAMPAK PENGHEMATAN ENERGI
+         ============================================================ -->
+      <section
+        class="he-section"
+        id="tujuan"
+      >
+        <div class="container">
+          <div class="he-section-header text-center mb-5">
+            <span class="he-section-label"> DAMPAK PENGHEMATAN ENERGI </span>
+
+            <h2 class="he-section-title mt-2">
+              Kebiasaan Kecil, Dampak yang Lebih Luas
+            </h2>
+
+            <p class="he-section-desc mx-auto">
+              Menggunakan energi dengan bijak membantu menjaga lingkungan sekaligus mendukung ruang belajar yang lebih nyaman.
+            </p>
+          </div>
+
+          <div class="row gy-4 justify-content-center">
+            <!-- Goal 01 -->
+            <div class="col-md-4">
+              <div class="he-card he-card-goal h-100">
+                <div class="he-card-number">01</div>
+                <h3 class="he-card-title">Menekan Emisi Karbon</h3>
+                <p class="he-card-desc">
+                  Mengurangi pemakaian listrik yang tidak diperlukan ikut menekan emisi dari pembangkit listrik berbahan bakar fosil.
+                </p>
+              </div>
+            </div>
+
+            <!-- Goal 02 -->
+            <div class="col-md-4">
+              <div class="he-card he-card-goal h-100">
+                <div class="he-card-number">02</div>
+                <h3 class="he-card-title">Menjaga Fasilitas Belajar</h3>
+                <p class="he-card-desc">
+                  Mematikan komputer, proyektor, dan pendingin ruangan dengan benar membantu menjaga fasilitas sekolah tetap awet.
+                </p>
+              </div>
+            </div>
+
+            <!-- Goal 03 -->
+            <div class="col-md-4">
+              <div class="he-card he-card-goal h-100">
+                <div class="he-card-number">03</div>
+                <h3 class="he-card-title">Membentuk Budaya Peduli Energi</h3>
+                <p class="he-card-desc">
+                  Kebiasaan yang dilakukan bersama membangun lingkungan belajar yang lebih bertanggung jawab dan berkelanjutan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         GALERI CONTOH DI SEKITAR KITA
+         ============================================================ -->
+      <section
+        class="he-section he-section-light"
+        id="galeri"
+      >
+        <div class="container">
+          <div class="he-section-header text-center mb-5">
+            <span class="he-section-label"> CONTOH DI SEKITAR KITA </span>
+
+            <h2 class="he-section-title mt-2">Hemat Energi di Sekitar Kita</h2>
+
+            <p class="he-section-desc mx-auto">
+              Contoh kebiasaan ramah energi yang dapat langsung dipraktikkan di
+              sekolah dan rumah.
+            </p>
+          </div>
+
+          <div class="row gy-4">
+            <!-- Gambar 1: Matikan Lampu -->
+            <div class="col-md-4">
+              <div class="he-image-card">
+                <img
+                  src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=800&q=80"
+                  alt="Lampu penerangan ruangan belajar"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="he-image-content">
+                  <h3>Matikan Lampu</h3>
+                  <p>
+                    Matikan lampu ketika ruangan tidak digunakan atau saat jam
+                    istirahat tiba.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gambar 2: Gunakan Cahaya Alami -->
+            <div class="col-md-4">
+              <div class="he-image-card">
+                <img
+                  src="https://images.unsplash.com/photo-1600508774634-4e11d34730e2?auto=format&fit=crop&w=800&q=80"
+                  alt="Cahaya matahari masuk ke ruang kelas"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="he-image-content">
+                  <h3>Gunakan Cahaya Alami</h3>
+                  <p>
+                    Buka tirai jendela pada siang hari untuk memaksimalkan
+                    penerangan alami tanpa listrik.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Gambar 3: Energi Terbarukan -->
+            <div class="col-md-4">
+              <div class="he-image-card">
+                <img
+                  src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=800&q=80"
+                  alt="Panel surya sebagai sumber energi bersih"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="he-image-content">
+                  <h3>Energi Terbarukan</h3>
+                  <p>
+                    Mengenal potensi sumber energi bersih seperti tenaga surya
+                    untuk sekolah masa depan.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         TEASER KAMPANYE: DATA & FAKTA SERTA AKSI & REKOMENDASI
+         ============================================================ -->
+      <section
+        class="he-section"
+        id="tahapan"
+      >
+        <div class="container">
+          <div class="he-section-header text-center mb-5">
+            <span class="he-section-label"> TAHAPAN KAMPANYE </span>
+
+            <h2 class="he-section-title mt-2">Alur Perjalanan Kampanye Kami</h2>
+
+            <p class="he-section-desc mx-auto">
+              Kampanye ini dibangun bertahap agar pesan ajakan bersandar pada
+              fakta terukur dan berujung pada aksi nyata:
+            </p>
+          </div>
+
+          <div class="row gy-4">
+            <!-- Kartu Teaser 1: Fase 1 -->
+            <div class="col-md-4">
+              <div class="he-teaser-card">
+                <div>
+                  <span class="he-teaser-badge active">Fase 1 (Selesai)</span>
+                  <h3 class="he-teaser-title">Membangun Kesadaran Awal</h3>
+                  <p class="he-teaser-desc">
+                    Menyiapkan halaman kampanye, memaparkan latar belakang
+                    efisiensi listrik di sekolah, dan merumuskan tujuan bersama.
+                  </p>
+                </div>
+                <div class="he-teaser-status">
+                  <span class="he-teaser-dot"></span>
+                  <span>Halaman Beranda &amp; Tentang sudah aktif</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Kartu Teaser 2: Fase 2 -->
+            <div class="col-md-4">
+              <div class="he-teaser-card">
+                <div>
+                  <span class="he-teaser-badge active">Fase 2 (Aktif)</span>
+                  <h3 class="he-teaser-title">Menyajikan Data &amp; Fakta</h3>
+                  <p class="he-teaser-desc">
+                    Menampilkan hasil survei kebiasaan penggunaan energi siswa
+                    kelas XI melalui visualisasi grafik interaktif dan catatan
+                    temuan utama.
+                  </p>
+                  <a
+                    class="btn he-btn-outline"
+                    href="data.html"
+                    >Lihat Data <span aria-hidden="true">→</span></a
+                  >
+                </div>
+                <div class="he-teaser-status">
+                  <span class="he-teaser-dot"></span>
+                  <span>Data survei 636 responden tersedia</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Kartu Teaser 3: Fase 3 -->
+            <div class="col-md-4">
+              <div class="he-teaser-card">
+                <div>
+                  <span class="he-teaser-badge active">Fase 3 (Aktif)</span>
+                  <h3 class="he-teaser-title">Rekomendasi &amp; Ajakan Aksi</h3>
+                  <p class="he-teaser-desc">
+                    Menyusun panduan langkah konkret, tips penghematan di kelas
+                    dan bengkel, serta tantangan hemat energi mingguan.
+                  </p>
+                  <a
+                    class="btn he-btn-outline"
+                    href="aksi.html"
+                    >Mulai Aksi <span aria-hidden="true">→</span></a
+                  >
+                </div>
+                <div class="he-teaser-status">
+                  <span class="he-teaser-dot"></span>
+                  <span>Rekomendasi dan tantangan 7 hari sudah aktif</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+         CTA BANNER
+         ============================================================ -->
+      <section class="he-cta">
+        <div class="container">
+          <div class="he-cta-inner text-center">
+            <span class="he-section-label">AJAKAN UNTUK MULAI BERTINDAK</span>
+            <div
+              class="he-cta-icon"
+              aria-hidden="true"
+            >
+              ⚡
+            </div>
+
+            <h2 class="he-cta-title">Yuk, mulai hemat energi!</h2>
+
+            <p class="he-cta-desc">
+              Satu kebiasaan kecil kita di kelas hari ini adalah langkah
+              berharga untuk bumi di masa depan.
+            </p>
+
+            <a
+              href="data.html"
+              class="btn he-btn-cta mt-2"
+            >
+              Lihat Data &amp; Fakta
+            </a>
+            <a
+              href="aksi.html"
+              class="btn he-btn-outline mt-2"
+            >
+              Mulai Aksi
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+    <footer class="he-footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <a
+              href="index.html"
+              class="he-footer-brand"
+            >
+              <img
+                class="he-footer-logo"
+                src="assets/images/logo-hemat-energi.png"
+                alt=""
+                aria-hidden="true"
+              />
+              <span>ENERGY <strong>SAVE</strong></span>
+            </a>
+
+            <p class="he-footer-desc mt-3">
+              Kampanye hemat energi di lingkungan sekolah untuk menumbuhkan
+              kebiasaan bijak menggunakan listrik.
+            </p>
+            <p class="he-footer-motto">Small Actions, Big Impact.</p>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <h4 class="he-footer-heading">Navigasi</h4>
+
+            <ul class="he-footer-nav">
+              <li>
+                <a href="index.html">Beranda</a>
+              </li>
+              <li>
+                <a href="data.html">Data &amp; Fakta</a>
+              </li>
+              <li>
+                <a href="aksi.html">Aksi &amp; Rekomendasi</a>
+              </li>
+              <li>
+                <a href="tentang.html">Tentang</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="he-footer-bottom">
+          <p>
+            &copy; 2026 Kampanye Hemat Energi. Dibuat oleh Kelompok 3 (XI-2
+            PPLG).
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script Interaktivitas Mandiri (Fase 1) -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

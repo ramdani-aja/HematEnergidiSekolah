@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Data dan fakta hasil kuesioner kebiasaan hemat energi 636 siswa." />
+  <title>Data &amp; Fakta - ENERGY SAVE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Ke halaman utama</a>
+
+  <header>
+    <nav class="he-navbar sticky-top" id="mainNavbar">
+      <div class="container">
+        <a class="he-brand" href="index.html" aria-label="Beranda ENERGY SAVE">
+          <img class="he-brand-logo" src="assets/images/logo-hemat-energi.png" alt="" aria-hidden="true" />
+          <span>ENERGY <strong>SAVE</strong></span>
+        </a>
+        <button class="he-toggler" type="button" aria-controls="navbarMenu" aria-expanded="false"
+          aria-label="Buka menu navigasi">
+          <span class="he-toggler-icon"></span>
+          <span class="he-toggler-icon"></span>
+          <span class="he-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="he-nav-link" href="index.html">Beranda</a></li>
+            <li class="nav-item"><a class="he-nav-link active" href="data.html" aria-current="page">Data &amp; Fakta</a></li>
+            <li class="nav-item"><a class="he-nav-link" href="aksi.html">Aksi &amp; Rekomendasi</a></li>
+            <li class="nav-item"><a class="he-nav-link" href="tentang.html">Tentang</a></li>
+            <li class="nav-item nav-cta-item"><a class="he-nav-cta" href="aksi.html">Mulai Aksi <span aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="he-hero he-hero-about data-hero">
+      <div class="container">
+        <div class="data-hero-content">
+          <span class="he-badge"><span aria-hidden="true">📊</span> PHASE 02 — DATA &amp; INSIGHT</span>
+          <h1 class="he-hero-title mt-4">Kebiasaan Hemat Energi,<br /><span class="he-highlight">Terlihat dalam Data.</span></h1>
+          <p class="he-hero-desc mx-auto">
+            Hasil kuesioner 636 siswa menunjukkan kebiasaan yang sudah kuat sekaligus peluang untuk menjadi lebih baik.
+          </p>
+          <p class="data-period" id="dataPeriod">Memuat periode pengisian...</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="data-error" id="dataError" role="alert" hidden>
+        Data kuesioner belum dapat dimuat. Pastikan file JSON tersedia dan buka website melalui server lokal, lalu muat ulang halaman.
+      </div>
+    </div>
+
+    <section class="he-section he-section-light">
+      <div class="container">
+        <div class="he-section-header text-center">
+          <span class="he-section-label">RINGKASAN KUESIONER</span>
+          <h2 class="he-section-title">Gambaran Partisipasi dan Perilaku</h2>
+          <p class="he-section-desc mx-auto">Jawaban siswa yang valid memperlihatkan fondasi kebiasaan hemat energi yang kuat.</p>
+        </div>
+        <div class="data-summary-grid" id="summaryStats" aria-live="polite">
+          <article class="data-stat-card">
+            <span class="data-stat-icon" aria-hidden="true">👥</span>
+            <strong class="data-stat-value" id="respondentCount">—</strong>
+            <h3>Responden</h3>
+            <p>Siswa dengan jawaban kuesioner yang valid.</p>
+          </article>
+          <article class="data-stat-card">
+            <span class="data-stat-icon" aria-hidden="true">✓</span>
+            <strong class="data-stat-value" id="participationRate">—</strong>
+            <h3>Partisipasi</h3>
+            <p>Dari seluruh siswa yang terdata.</p>
+          </article>
+          <article class="data-stat-card">
+            <span class="data-stat-icon" aria-hidden="true">⚡</span>
+            <strong class="data-stat-value" id="averageScore">—</strong>
+            <h3>Rata-rata Skor</h3>
+            <p>Skala kebiasaan 1 sampai 4.</p>
+          </article>
+          <article class="data-stat-card">
+            <span class="data-stat-icon" aria-hidden="true">🌱</span>
+            <strong class="data-stat-value" id="oftenRate">—</strong>
+            <h3>Perilaku Sering Dilakukan</h3>
+            <p>Rata-rata kebiasaan yang dilakukan siswa.</p>
+          </article>
+        </div>
+        <p class="data-source-note" id="dataSource"></p>
+      </div>
+    </section>
+
+    <section class="he-section">
+      <div class="container">
+        <div class="he-section-header text-center">
+          <span class="he-section-label">TEMUAN UTAMA</span>
+          <h2 class="he-section-title">Apa yang Diceritakan Angka?</h2>
+          <p class="he-section-desc mx-auto">Jelajahi hasil survei berikut untuk melihat kekuatan dan kebiasaan yang masih bisa ditingkatkan.</p>
+        </div>
+
+        <div class="data-chart-list">
+          <article class="data-chart-card">
+            <div class="data-chart-heading">
+              <span class="data-chart-icon" aria-hidden="true">◉</span>
+              <div>
+                <h3>Kategori Perilaku Hemat Energi</h3>
+                <p>Komposisi kategori skor rata-rata dari 636 responden.</p>
+              </div>
+            </div>
+            <div class="data-chart-canvas data-chart-doughnut">
+              <canvas id="categoryChart" role="img" aria-label="Grafik donat kategori perilaku hemat energi"></canvas>
+            </div>
+            <p class="data-chart-source">Sumber: Kuesioner perilaku hemat energi siswa kelas XI.</p>
+            <p class="data-chart-conclusion">Sebagian besar siswa sudah memiliki kebiasaan hemat energi yang baik. Namun, masih ada siswa yang perlu meningkatkan kebiasaan tersebut.</p>
+          </article>
+
+          <article class="data-chart-card">
+            <div class="data-chart-heading">
+              <span class="data-chart-icon" aria-hidden="true">↗</span>
+              <div>
+                <h3>Perbandingan 10 Perilaku Hemat Energi</h3>
+                <p>Rata-rata skor setiap indikator pada skala 1 sampai 4.</p>
+              </div>
+            </div>
+            <div class="data-chart-canvas data-chart-indicators">
+              <canvas id="indicatorChart" role="img" aria-label="Grafik batang horizontal rata-rata skor sepuluh perilaku hemat energi"></canvas>
+            </div>
+            <p class="data-chart-source">Sumber: Kuesioner perilaku hemat energi siswa kelas XI; data per indikator.</p>
+            <p class="data-chart-conclusion">Praktik hemat energi sehari-hari memiliki skor tertinggi sebesar 3,51. Pembatasan penggunaan gawai dan keberanian mengajak teman memiliki skor terendah, yaitu 3,22.</p>
+          </article>
+
+          <article class="data-chart-card">
+            <div class="data-chart-heading">
+              <span class="data-chart-icon" aria-hidden="true">▥</span>
+              <div>
+                <h3>Perbandingan Antarjurusan</h3>
+                <p>Rata-rata skor kebiasaan hemat energi per jurusan.</p>
+              </div>
+            </div>
+            <div class="data-chart-canvas data-chart-departments">
+              <canvas id="departmentChart" role="img" aria-label="Grafik batang perbandingan rata-rata skor antarjurusan"></canvas>
+            </div>
+            <p class="data-chart-source">Sumber: Kuesioner perilaku hemat energi siswa kelas XI; data per jurusan.</p>
+            <p class="data-chart-conclusion">Pemasaran memiliki rata-rata skor tertinggi, sedangkan MPLB dan PPLG memiliki rata-rata terendah berdasarkan data yang tersedia.</p>
+          </article>
+
+          <article class="data-chart-card data-chart-rombel-card">
+            <div class="data-chart-heading">
+              <span class="data-chart-icon" aria-hidden="true">▤</span>
+              <div>
+                <h3>Hasil Kuesioner per Rombel</h3>
+                <p>Pilih rata-rata keseluruhan atau indikator tertentu untuk membandingkan setiap rombel.</p>
+              </div>
+            </div>
+            <div class="rombel-chart-controls">
+              <label for="rombelIndicator">Tampilkan skor</label>
+              <select id="rombelIndicator" aria-label="Pilih skor kuesioner yang ditampilkan per rombel">
+                <option value="overall">Rata-rata keseluruhan</option>
+              </select>
+              <span class="rombel-count" id="rombelSummary">Memuat data rombel...</span>
+            </div>
+            <div class="data-chart-canvas data-chart-rombel">
+              <canvas id="rombelChart" role="img" aria-label="Grafik horizontal rata-rata skor kuesioner tiap rombel"></canvas>
+            </div>
+            <p class="data-chart-source">Sumber: Kuesioner perilaku hemat energi siswa kelas XI; data per rombel.</p>
+            <p class="data-chart-conclusion" id="rombelInterpretation">Grafik dan peringkat akan mengikuti indikator yang dipilih.</p>
+            <div class="rombel-table-wrap">
+              <table class="rombel-table">
+                <caption id="rombelTableCaption">Rincian skor setiap rombel</caption>
+                <thead>
+                  <tr>
+                    <th class="rombel-rank-cell" scope="col">#</th>
+                    <th scope="col">Rombel</th>
+                    <th scope="col">Responden</th>
+                    <th scope="col">Skor / 4</th>
+                  </tr>
+                </thead>
+                <tbody id="rombelTableBody"></tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="data-chart-card">
+            <div class="data-chart-heading">
+              <span class="data-chart-icon" aria-hidden="true">⌁</span>
+              <div>
+                <h3>Distribusi Skor Total</h3>
+                <p>Jumlah siswa pada setiap skor total dari 10 hingga 40.</p>
+              </div>
+            </div>
+            <div class="data-chart-canvas data-chart-distribution">
+              <canvas id="distributionChart" role="img" aria-label="Grafik batang distribusi skor total siswa"></canvas>
+            </div>
+            <p class="data-chart-source">Sumber: Kuesioner perilaku hemat energi siswa kelas XI; sebaran skor total.</p>
+            <p class="data-chart-conclusion">Skor total tersebar di rentang hasil kuesioner yang tersedia. Setiap batang menunjukkan jumlah siswa pada skor tersebut.</p>
+          </article>
+        </div>
+
+        <div class="data-next-step">
+          <div>
+            <span class="he-section-label">LANGKAH BERIKUTNYA</span>
+            <h2 class="he-section-title">Data menjadi berarti saat diikuti aksi.</h2>
+          </div>
+          <a class="btn he-btn-primary" href="aksi.html">Mulai Aksi <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="he-footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6">
+          <a href="index.html" class="he-footer-brand"><img class="he-footer-logo" src="assets/images/logo-hemat-energi.png" alt="" aria-hidden="true" /><span>ENERGY <strong>SAVE</strong></span></a>
+          <p class="he-footer-desc mt-3">Kampanye hemat energi di lingkungan sekolah untuk menumbuhkan kebiasaan bijak menggunakan listrik.</p>
+          <p class="he-footer-motto">Small Actions, Big Impact.</p>
+        </div>
+        <div class="col-lg-3 col-6">
+          <h4 class="he-footer-heading">Navigasi</h4>
+          <ul class="he-footer-nav">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="data.html" aria-current="page">Data &amp; Fakta</a></li>
+            <li><a href="aksi.html">Aksi &amp; Rekomendasi</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="he-footer-bottom"><p>&copy; 2026 Kampanye Hemat Energi. Dibuat oleh Kelompok 3 (XI-2 PPLG).</p></div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/data.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="640" viewBox="0 0 760 640" fill="none">
+  <defs>
+    <linearGradient id="islandTop" x1="140" y1="358" x2="568" y2="481" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B5DF70"/>
+      <stop offset=".52" stop-color="#79B83C"/>
+      <stop offset="1" stop-color="#4F8D33"/>
+    </linearGradient>
+    <linearGradient id="islandSide" x1="250" y1="453" x2="470" y2="574" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#876D4C"/>
+      <stop offset=".48" stop-color="#65583F"/>
+      <stop offset="1" stop-color="#3C5033"/>
+    </linearGradient>
+    <linearGradient id="schoolFront" x1="257" y1="241" x2="464" y2="409" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8EEE2"/>
+    </linearGradient>
+    <linearGradient id="schoolSide" x1="463" y1="274" x2="535" y2="405" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCE5D7"/>
+      <stop offset="1" stop-color="#B9C9AE"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="236" y1="221" x2="515" y2="299" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDFEFC"/>
+      <stop offset="1" stop-color="#C8D6C1"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="283" y1="292" x2="424" y2="358" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BFE0DF"/>
+      <stop offset="1" stop-color="#6A9E9A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="360" y1="192" x2="470" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#557B74"/>
+      <stop offset="1" stop-color="#2F514E"/>
+    </linearGradient>
+    <filter id="shadow" x="76" y="400" width="604" height="211" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="17"/>
+    </filter>
+    <filter id="buildingShadow" x="205" y="194" width="367" height="252" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="372" cy="271" rx="263" ry="237" fill="#EEF5E6"/>
+  <circle cx="566" cy="113" r="44" fill="#E0F0BE"/>
+  <circle cx="566" cy="113" r="27" fill="#F5F9E9"/>
+  <path d="M95 324c29-32 58-43 87-33 24 8 38 29 40 56-23 13-48 18-74 13-24-5-42-17-53-36Z" fill="#A4D469" opacity=".8"/>
+  <path d="M554 300c28-31 57-39 84-23 18 11 27 30 26 56-26 10-51 9-74-3-18-9-30-19-36-30Z" fill="#9AC95E" opacity=".72"/>
+
+  <ellipse cx="379" cy="527" rx="263" ry="48" fill="#25351F" opacity=".18" filter="url(#shadow)"/>
+  <path d="m143 424 190-87c22-10 48-10 70 0l208 86-190 100c-23 12-51 12-74 0l-204-99Z" fill="url(#islandTop)"/>
+  <path d="m143 424 204 99c23 12 51 12 74 0l190-100-8 43-184 100c-23 13-51 13-75 1L153 470l-10-46Z" fill="url(#islandSide)"/>
+  <path d="m153 470 195 97c23 12 51 12 74-1l184-100-4 23-178 100c-24 13-53 13-77 1L159 501l-6-31Z" fill="#526144"/>
+  <path d="m167 435 170-77c21-10 44-10 65 0l178 73-174 90c-21 11-47 11-68 0l-171-86Z" fill="#A5D96A" opacity=".72"/>
+  <path d="M181 447c57 20 110 21 156 5 35-12 77-13 115-1 35 11 71 9 105-7" stroke="#D3EAA6" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  <path d="M192 471c39 15 74 20 106 14M441 478c36 5 69-2 100-20" stroke="#689E3D" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+
+  <ellipse cx="383" cy="421" rx="151" ry="23" fill="#314A2A" opacity=".16" filter="url(#buildingShadow)"/>
+  <path d="M253 270h213v142H253V270Z" fill="url(#schoolFront)"/>
+  <path d="m466 270 70 31v135l-70-24V270Z" fill="url(#schoolSide)"/>
+  <path d="m236 265 229-23 79 32-220 28-88-37Z" fill="url(#roof)"/>
+  <path d="m465 242 79 32-8 27-70-31-1-28Z" fill="#BCCBB6"/>
+  <path d="m252 270 214 4v137l-214 1V270Z" fill="url(#schoolFront)"/>
+  <path d="M252 282h214v10H252v-10Z" fill="#D9E3D4"/>
+  <path d="m466 274 70 29v11l-70-25v-15Z" fill="#AABDA1"/>
+
+  <path d="m346 233 108-11 38 16-107 14-39-19Z" fill="url(#panel)" stroke="#345B52" stroke-width="2"/>
+  <path d="m362 231 13 22m14-25 13 22m14-26 13 22m14-25 12 21m-72-8 97-12m-84 27 95-13" stroke="#9BBDB2" stroke-width="2" opacity=".8"/>
+  <path d="m343 251 4 17m109-31 2 17" stroke="#788A70" stroke-width="3"/>
+
+  <rect x="275" y="309" width="49" height="48" rx="4" fill="url(#glass)" stroke="#D2DDD0" stroke-width="5"/>
+  <path d="M299.5 311v44m-22-21h44" stroke="#F7FAF6" stroke-width="4"/>
+  <rect x="338" y="309" width="50" height="48" rx="4" fill="url(#glass)" stroke="#D2DDD0" stroke-width="5"/>
+  <path d="M363 311v44m-22-21h44" stroke="#F7FAF6" stroke-width="4"/>
+  <rect x="402" y="309" width="42" height="48" rx="4" fill="url(#glass)" stroke="#D2DDD0" stroke-width="5"/>
+  <path d="M423 311v44m-19-21h38" stroke="#F7FAF6" stroke-width="4"/>
+  <rect x="350" y="365" width="43" height="46" rx="4" fill="#789174"/>
+  <rect x="356" y="370" width="31" height="41" rx="3" fill="#D3E1CC"/>
+  <circle cx="380" cy="392" r="2" fill="#6C8C5D"/>
+  <path d="M253 412h213" stroke="#B5C4AE" stroke-width="4"/>
+  <path d="M274 414v12m169-12v12m-138-12v12m108-12v12" stroke="#789174" stroke-width="3"/>
+  <path d="m466 290 51 22v73l-51-19v-76Z" fill="#D9E4D6"/>
+  <path d="m479 310 25 10v26l-25-9v-27Z" fill="url(#glass)" stroke="#F6FAF4" stroke-width="4"/>
+  <path d="m466 392 70 24v20l-70-24v-20Z" fill="#A9BCA0"/>
+  <rect x="323" y="273" width="69" height="18" rx="9" fill="#315B24"/>
+  <text x="357.5" y="286" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">ENERGY SCHOOL</text>
+
+  <path d="M208 384v-68" stroke="#765A3C" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="207" cy="306" r="35" fill="#6FAE3D"/>
+  <circle cx="184" cy="316" r="24" fill="#84BF4A"/>
+  <circle cx="226" cy="321" r="26" fill="#5D9C36"/>
+  <path d="M553 386v-62" stroke="#765A3C" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="552" cy="308" r="33" fill="#5D9C36"/>
+  <circle cx="531" cy="317" r="22" fill="#84BF4A"/>
+  <circle cx="574" cy="323" r="22" fill="#78B543"/>
+  <path d="M226 420c9-22 20-31 34-28 11 2 17 12 17 28-17 10-34 10-51 0Z" fill="#497F32"/>
+  <path d="M474 421c10-20 21-27 33-22 10 4 14 13 12 27-16 7-31 5-45-5Z" fill="#477A2D"/>
+
+  <path d="m301 438 40 18m82-11 36-16" stroke="#E8F2D8" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="308" cy="459" r="7" fill="#F5F8EA"/>
+  <circle cx="454" cy="431" r="6" fill="#F5F8EA"/>
+  <path d="M123 403c14-8 28-8 42 0m435 10c13-8 25-8 37 0" stroke="#F5FAE9" stroke-width="4" stroke-linecap="round" opacity=".85"/>
+</svg>
